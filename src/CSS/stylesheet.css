@@ -1,0 +1,272 @@
+/* colors: 0A0A0A ebebeb DECDF5 F8F1FF Ca802b DDA15E */
+
+body{
+    background-color: #0A0A0A;
+    color: #ebebeb;
+}
+.layout-size{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* projects */
+.language{
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+ul.project{
+    padding: 0px;
+}
+a.project{
+    list-style: none;
+    display: grid;
+    grid-template-areas:
+    'img title title'
+    'img languages languages';
+    text-decoration: none;
+}
+a.project:hover{
+    background-color: grey;
+}
+.project-img{
+    width: 100px;
+    grid-area: img;
+    align-self: center;
+    margin: 5px 5px 5px auto;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.project-title{
+    grid-area: title;
+    margin-top: auto;
+    margin-bottom: 3px;
+    color: #ebebeb;
+}
+.project-languages{
+    grid-area: languages;
+    padding: 0px;
+    color: #ebebeb;
+}
+
+/* home */
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'name name name name name name'
+    'name name name name name name'
+    'home home project project skills skills'
+    'information information information information information information'
+    'linkedin linkedin linkedin git git git';
+    grid-gap: 10px;
+    
+}
+
+
+
+
+
+.name-job{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    grid-area: name;
+}
+
+div.footer{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    font-size: 1.2em;
+}
+a.footer{
+color: #88A3FB;
+}
+a.footer:visited{
+    color: #6323b8;
+}
+.linkedin{
+    grid-area: linkedin;
+}
+.git{
+    grid-area: git;
+}
+.name{
+    color: #ebebeb;
+    grid-area: name;
+}
+
+h2.name{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+a.home{
+    text-decoration: none;
+    grid-area: icon;
+}
+.job{
+    color: #ebebeb;
+    grid-area: job;
+}
+
+h4.job{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div.information{
+    grid-area: information;
+}
+.navigation-profile-layout{
+    display: grid;
+    grid-template-areas:
+    'pic name'
+    'pic job';
+}
+img.Home-page{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 90%;
+    margin-top: 50px;
+    border-radius: 50%;
+    
+    box-shadow: 10px 10px 10px #DECDF5, 5px -5px 4px #F8F1FF;
+}
+.navigation-layout-img{
+    grid-area: pic;
+    max-height: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 1px #DECDF5, 1px -1px 1px #F8F1FF;
+    margin-right: 20px;
+    margin-left: auto;
+    
+}
+.navigation-area{
+    margin-top: 0px;
+    width: 100%;
+    
+}
+.navigation-layout{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:grid;
+    grid-template-areas:
+    'icon icon icon icon icon'
+    '. home project skills .';
+
+    
+    
+    grid-gap: 20px;
+
+}
+.nav4{
+    grid-area: education;
+}
+
+.navigation{
+    font-size: 1.2em;
+    color: #Ca802b;
+    text-align: center;
+    text-decoration: none;
+}
+.navigation:hover{
+    color: #DDA15E;
+}
+.nav1{
+    grid-area: home;
+}
+.nav2{
+    grid-area: project;
+}
+.nav3{
+    grid-area: skills;
+}
+
+div.Home-page{
+    margin-top:50px;
+    grid-gap: 10px;
+    
+}
+.empty{
+    grid-area: empty;
+}
+@media screen and (min-width: 800px){
+    .nav1{
+        margin: 0px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+        '. . . information information information'
+        'name name name information information information'
+        'name name name information information information'
+        'name name name information information information'
+        'name name name information information information'
+        'home project skills information information information'
+        'linkedin git . information information information'
+        '. . . information information information'
+        '. . . information information information';
+        
+        grid-gap: 10px;
+        
+    }
+    div.footer{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    div.name-job{
+        margin-left: 0px;
+    }
+    h1.name{
+        font-size:3em;
+        text-align: left;
+    }
+    h2.job{
+        font-size: 2em;
+        text-align: left;
+    }
+    .navigation{
+        text-align: left;
+    }
+    img.Home-page{
+        width: 100%;
+        box-shadow: none;
+    }
+    .navigation-layout{
+        /* background-color: blue; */
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display:grid;
+        grid-template-areas:
+        
+        'icon . . . .'
+        'icon home project skills .';
+        
+        grid-gap: 0px;
+    }
+    .navigation-layout-img{
+        max-height: 100px;   
+    }
+    h2.name{
+        font-size: 35px;
+    }
+    h4.job{
+        font-size: 20px;
+    }
+    .navigation-area{
+        background-color: #0A0A0A;
+    }
+    .main{
+        background-color: #ebebeb;
+        color: black;
+    }
+}
