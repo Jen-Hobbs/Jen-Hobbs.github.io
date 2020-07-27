@@ -11,6 +11,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+
 /* projects */
 .language{
     display: inline-block;
@@ -26,10 +27,14 @@ a.project{
     grid-template-areas:
     'img title title'
     'img languages languages';
+    grid-template-columns: 120px auto;
     text-decoration: none;
 }
 a.project:hover{
     background-color: grey;
+}
+.ProjectDetails{
+    max-width: 100%;
 }
 .project-img{
     width: 100px;
@@ -198,8 +203,19 @@ div.Home-page{
     grid-area: empty;
 }
 @media screen and (min-width: 800px){
+    div.projectfull{
+        display: grid;
+        grid-template-columns: 350px auto;
+    }
+
     .nav1{
         margin: 0px;
+    }
+    .project-title{
+        color: #0A0A0A;
+    }
+    .project-languages{
+        color: #0a0a0a;
     }
     .grid-container{
         display: grid;

@@ -3,10 +3,10 @@
     {
         "name": "IcoPico",
         "showTitle": "IcoPico",
-        "img": "Icopico_Logo.png",
+        "img": "IcoPico/Icopico_Logo.png",
         "git": "https://github.com/Jen-Hobbs/IcoPico",
         "website": "https://icopico-bcit.herokuapp.com/",
-        "pictures": [],
+        "pictures": ["IcoPico/home page.png","IcoPico/icopico play screen.png", "IcoPico/icopico task screen.png"],
         "languages": ["Javascript", "Phaser3", "FireStore"],
         "description": "IcoPico is a gamified web app that encourages people to live more sustainably. Developed by Jennifer Hobbs, Louis, Nicole, Joanna and Mikeala during summer 2019. IcoPico was selected to be presented at EcoCity in September 2019. This project was developed using Firebase, Javascript, and Phaser3."
     
@@ -14,43 +14,43 @@
     {
         "name": "Media Works Tour",
         "showTitle": "Media",
-        "img": "MediaWorks.png",
+        "img": "MediaWorks/MediaWorks.png",
         "git": "https://github.com/Jen-Hobbs/HoloLensTourSystem",
         "website": "",
-        "pictures": [],
-        "languages": ["Javascript", "Phaser3", "FireStore"],
+        "pictures": ["MediaWorks/MediaWorks tap.png", "MediaWorks/MediaWorks Intro.png"],
+        "languages": ["Unity", "C#", "HoloLens", "Firebase"],
         "description": "The idea of this project is to build a prototype system that will provide an AR tour experience for the MediaWorks Lab. This will be achieved through an integration of visual cues and gesture commands.. The goal is to be able to scan QR codes situated around the lab that will bring up related content to nearby objects and let the user choose to interact with a single point of interest, or to continue exploring around the lab. By interacting with a point of interest, the user will learn more about that specific object and how it works. The end goal is to create a useful and scalable tool to be used in any museum or showcasing setting. "
     },
     {
         "name": "",
         "showTitle": "Info",
-        "img": "InfoParks.png",
+        "img": "InfoParks/InfoParks.png",
         "git": "https://github.com/Jen-Hobbs/bluelizard",
         "website": "",
-        "pictures": [],
-        "languages": ["Javascript", "Phaser3", "FireStore"],
+        "pictures": ["InfoParks/InfoParks.png","InfoParks/Parks.png","InfoParks/Playgrounds.png" ],
+        "languages": ["Java", "Android Studio", "Google maps", "Firebase"],
         "description": "This project was created to show different public facilities within the New Westminster region. A user can see were parks, washrooms, and water fountains are within the area. This android app was created using Android Studio with Java and Google maps API."
 
     },
     {
         "name": "",
         "showTitle": "MoneyMan",
-        "img": "MoneyMan.png",
+        "img": "MoneyMan/MoneyMan.png",
         "git": "https://github.com/eamonnalphin/COMP4956PrimaryRepo",
         "website": "http://floral-trauma-mmst.herokuapp.com/",
-        "pictures": [],
-        "languages": ["Javascript", "Phaser3", "FireStore"],
+        "pictures": ["MoneyMan/moneyman home.png", "MoneyMan/moneyman game.png"],
+        "languages": ["Unity", "C#", "Photon"],
         "description": "Tower-defense/top-down shooter game created by group of 24 students using Unity and Photon. The goal of the game was to either destroy the world tree as an Industrialist or save the tree as a druid. The project lasted from September 2019 – December 2019. In this project I took part in the following teams: Game Design, Multimedia, and Mechanics. "
 
     },
     {
         "name": "MixCast Presenter",
         "showTitle": "MixCast",
-        "img": "MixCast.jpg",
+        "img": "MixCast/MixCast.jpg",
         "git": "",
         "website": "",
         "pictures": [],
-        "languages": ["Javascript", "Phaser3", "FireStore"],
+        "languages": ["Unity", "Vive"],
         "description": "The idea of this project was to create a prototype that allows a user to make presentations in VR. The user was able to select the environment they would like to present in and show a slide show behind them."
 
     }
