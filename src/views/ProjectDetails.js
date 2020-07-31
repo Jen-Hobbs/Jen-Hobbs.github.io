@@ -34,7 +34,7 @@ class ProjectDetails extends Component{
     render(){
         return(
             <div>
-
+                <h1>Work in progress</h1>
                 {this.state.info != null &&(
                     <div>
                         <p>{this.state.info.showTitle}</p>

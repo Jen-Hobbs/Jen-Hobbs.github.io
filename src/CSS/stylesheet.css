@@ -58,6 +58,7 @@ a.project:hover{
     color: #ebebeb;
 }
 
+
 /* home */
 .grid-container{
     display: grid;
@@ -203,6 +204,12 @@ div.Home-page{
     grid-area: empty;
 }
 @media screen and (min-width: 800px){
+/* skills */
+.skills-layout{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
     div.projectfull{
         display: grid;
         grid-template-columns: 350px auto;

@@ -1,12 +1,12 @@
 {
 "skills" : [{
-    "skill": "C#", "star": 3
+    "skill": "C#", "star": 3.5
 },
 {
     "skill": "React", "star": 2.5
 },
 {
-    "skill": "Java", "star": 2
+    "skill": "Java", "star": 2.8
 },
 {
     "skill": "JS ECMA6", "star": 3
@@ -15,7 +15,7 @@
     "skill": "Node", "star": 2
 },
 {
-    "skill": "HTML", "star": 3
+    "skill": "HTML", "star": 3.3
 },
 {
     "skill": "SQL", "star": 2.5
