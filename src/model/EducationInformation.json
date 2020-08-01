@@ -1,6 +1,14 @@
 {   
     "education" : [
         {"name": "British Columbia Institute of Technology"
+            , "degree": "Bachelor of Computer Systems Technology"
+            , "startDate": "September 2020"
+            , "endDate": "To Be Determined"
+            , "information":  [
+                {"info": "Part time studies to improve knowledge base"}
+                
+            ]},
+        {"name": "British Columbia Institute of Technology"
         , "degree": "Diploma of Computer Systems Technology"
         , "startDate": "September 2017"
         , "endDate": "December 2019"

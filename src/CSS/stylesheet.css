@@ -11,7 +11,39 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
-
+.main-alignment{
+    margin: 0px 20px;
+}
+/* Skills */
+.skills{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-style: italic;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2.skills{
+    padding-top: 20px;
+}
+/* Education */
+ul.education{
+    list-style: none;
+    padding: 0px;
+}
+h3.education{
+    margin: 10px 0px 0px 0px;
+}
+h4.education{
+    margin: 0px;
+}
+h5.education{
+    margin: 0px;
+}
 /* projects */
 .language{
     display: inline-block;
@@ -35,6 +67,7 @@ a.project:hover{
 }
 .ProjectDetails{
     max-width: 100%;
+
 }
 .project-img{
     width: 100px;
@@ -207,9 +240,12 @@ div.Home-page{
 /* skills */
 .skills-layout{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% auto;
 }
-
+    .link-layout{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
     div.projectfull{
         display: grid;
         grid-template-columns: 350px auto;

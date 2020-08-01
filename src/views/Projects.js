@@ -31,7 +31,6 @@ class Projects extends Component {
                 <Navigation />
 
                 <div className="layout-size main">
-                    <h1>Projects</h1>
                     
                     
                         <div className="projectfull">

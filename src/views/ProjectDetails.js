@@ -34,11 +34,25 @@ class ProjectDetails extends Component{
     render(){
         return(
             <div>
-                <h1>Work in progress</h1>
                 {this.state.info != null &&(
                     <div>
-                        <p>{this.state.info.showTitle}</p>
+                        <h1>{this.state.info.showTitle}</h1>
+                        
                         <p>{this.state.info.description}</p>
+                        <div className="link-layout">
+                        {this.state.info.website !== null && 
+                        (
+                            <div>
+                                <h5>Website: <a href={this.state.info.website}>{this.state.info.website}</a></h5>
+                            </div>
+                        )}
+                        {this.state.info.git !== null && 
+                        (
+                            <div>
+                                <h5>GitHub: <a href={this.state.info.git}>{this.state.info.git}</a></h5>
+                            </div>
+                        )}
+                        </div>
                         <ul>
                             {this.state.info.pictures.map((info)=>{
                                 return(

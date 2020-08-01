@@ -16,7 +16,7 @@
         "showTitle": "Media",
         "img": "MediaWorks/MediaWorks.png",
         "git": "https://github.com/Jen-Hobbs/HoloLensTourSystem",
-        "website": "",
+        "website": null,
         "pictures": ["MediaWorks/MediaWorks tap.png", "MediaWorks/MediaWorks Intro.png"],
         "languages": ["Unity", "C#", "HoloLens", "Firebase"],
         "description": "The idea of this project is to build a prototype system that will provide an AR tour experience for the MediaWorks Lab. This will be achieved through an integration of visual cues and gesture commands.. The goal is to be able to scan QR codes situated around the lab that will bring up related content to nearby objects and let the user choose to interact with a single point of interest, or to continue exploring around the lab. By interacting with a point of interest, the user will learn more about that specific object and how it works. The end goal is to create a useful and scalable tool to be used in any museum or showcasing setting. "
@@ -26,8 +26,8 @@
         "showTitle": "Info",
         "img": "InfoParks/InfoParks.png",
         "git": "https://github.com/Jen-Hobbs/bluelizard",
-        "website": "",
-        "pictures": ["InfoParks/InfoParks.png","InfoParks/Parks.png","InfoParks/Playgrounds.png" ],
+        "website": null,
+        "pictures": ["InfoParks/Parks.png","InfoParks/Playgrounds.png" ],
         "languages": ["Java", "Android Studio", "Google maps", "Firebase"],
         "description": "This project was created to show different public facilities within the New Westminster region. A user can see were parks, washrooms, and water fountains are within the area. This android app was created using Android Studio with Java and Google maps API."
 
@@ -47,8 +47,8 @@
         "name": "MixCast Presenter",
         "showTitle": "MixCast",
         "img": "MixCast/MixCast.jpg",
-        "git": "",
-        "website": "",
+        "git": null,
+        "website": null,
         "pictures": [],
         "languages": ["Unity", "Vive"],
         "description": "The idea of this project was to create a prototype that allows a user to make presentations in VR. The user was able to select the environment they would like to present in and show a slide show behind them."
