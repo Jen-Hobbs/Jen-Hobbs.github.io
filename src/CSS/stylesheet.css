@@ -131,9 +131,7 @@ div.footer{
 a.footer{
 color: #88A3FB;
 }
-a.footer:visited{
-    color: #6323b8;
-}
+
 .linkedin{
     grid-area: linkedin;
 }
