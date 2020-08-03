@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fcd4339a.chunk.css",
+    "main.css": "/static/css/main.8222dbf5.chunk.css",
     "main.js": "/static/js/main.94e9ee9a.chunk.js",
     "main.js.map": "/static/js/main.94e9ee9a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
@@ -8,9 +8,9 @@
     "static/js/2.3c8ed99a.chunk.js": "/static/js/2.3c8ed99a.chunk.js",
     "static/js/2.3c8ed99a.chunk.js.map": "/static/js/2.3c8ed99a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b6cb3006ba6709867356d967114a4c27.js": "/precache-manifest.b6cb3006ba6709867356d967114a4c27.js",
+    "precache-manifest.23d0a076a75c6a1ce9de7528c1eddb06.js": "/precache-manifest.23d0a076a75c6a1ce9de7528c1eddb06.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fcd4339a.chunk.css.map": "/static/css/main.fcd4339a.chunk.css.map",
+    "static/css/main.8222dbf5.chunk.css.map": "/static/css/main.8222dbf5.chunk.css.map",
     "static/js/2.3c8ed99a.chunk.js.LICENSE.txt": "/static/js/2.3c8ed99a.chunk.js.LICENSE.txt",
     "static/media/Focused View.png": "/static/media/Focused View.b591f6f6.png",
     "static/media/Icopico_Logo.png": "/static/media/Icopico_Logo.25e79316.png",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.3374ac37.js",
     "static/js/2.3c8ed99a.chunk.js",
-    "static/css/main.fcd4339a.chunk.css",
+    "static/css/main.8222dbf5.chunk.css",
     "static/js/main.94e9ee9a.chunk.js"
   ]
 }
