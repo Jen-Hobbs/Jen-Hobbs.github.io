@@ -33,7 +33,7 @@ class ProjectDetails extends Component{
     }
     render(){
         return(
-            <div>
+            <div className="project-details">
                 {this.state.info != null &&(
                     <div>
                         <h1>{this.state.info.showTitle}</h1>

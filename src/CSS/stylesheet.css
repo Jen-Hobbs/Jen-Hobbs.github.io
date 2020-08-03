@@ -31,9 +31,10 @@ h2.skills{
     padding-top: 20px;
 }
 /* Education */
+
 ul.education{
     list-style: none;
-    padding: 0px;
+    padding: 10px 0px 0px 0px;
 }
 h3.education{
     margin: 10px 0px 0px 0px;
@@ -45,13 +46,16 @@ h5.education{
     margin: 0px;
 }
 /* projects */
+.project-details{
+    padding-left: 20px;
+}
 .language{
     display: inline-block;
     white-space: nowrap;
     margin-left: 5px;
 }
 ul.project{
-    padding: 0px;
+    padding: 20px 0px;
 }
 a.project{
     list-style: none;
@@ -254,12 +258,7 @@ div.Home-page{
     .nav1{
         margin: 0px;
     }
-    .project-title{
-        color: #0A0A0A;
-    }
-    .project-languages{
-        color: #0a0a0a;
-    }
+    
     .grid-container{
         display: grid;
         grid-template-areas: 
@@ -324,8 +323,5 @@ div.Home-page{
     .navigation-area{
         background-color: #0A0A0A;
     }
-    .main{
-        background-color: #ebebeb;
-        color: black;
-    }
+    
 }
